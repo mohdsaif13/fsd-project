@@ -1,0 +1,10 @@
+#heading{
+    text-align: center;
+    background-color: chartreuse;
+    color: black;
+    font-size: 40px;
+}
+table{
+    width: 100%;
+    background-color: coral;
+}
