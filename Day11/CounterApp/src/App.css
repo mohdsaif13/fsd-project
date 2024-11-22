@@ -1,0 +1,23 @@
+.count-app{
+  width: 500px;
+  height:600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black;
+  margin-left:550px ;
+}
+.count-body{
+  display: flex;
+  flex-direction:column ;
+  gap:30px;
+}
+button{
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  padding: 12px;
+  background-color: #a3a2a2;
+  color: black;
+}
