@@ -6,7 +6,7 @@ const Register = () => {
         const name = e.target.name.value;
         const age = e.target.age.value;
         const users={name,age}
-       await axios.post('https://fsdbackend-fgf5.onrender.com/users/',users)
+       await axios.post('https://fsd-project-easp.onrender.com',users)
        alert("User registered")
     }
   return (

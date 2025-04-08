@@ -6,8 +6,8 @@ const View = () => {
     useEffect(() => {
         handleview();
     },[])
-    const handleview= async () => {
-        const res=await axios.get('https://fsdbackend-fgf5.onrender.com/users');
+    const handleview= async () => {ers
+        const res=await axios.get('https://fsd-project-easp.onrender.com');
         setUsers(res.data);
         console.log(users);
     }
